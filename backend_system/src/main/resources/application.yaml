@@ -2,9 +2,9 @@ spring:
   # datasource--就是配置连接数据的信息
   datasource:
     username: root
-    password: 8bf14c714c3f8df1
+    password: 748899
     #下面的ssm是数据库的名字，如果更换数据库，记得更换名字  
-    url: jdbc:mysql://localhost:3306/lightningbaron?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://172.22.139.47:3306/lightningbaron?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   #如果用注解方式下面两个配置没什么意义，是搭配配置xml文件使用的

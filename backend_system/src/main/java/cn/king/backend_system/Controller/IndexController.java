@@ -26,6 +26,7 @@ public class IndexController {
         testCdkService.removeById(one.getId());
         //返回给用户
         String format = String.format("这是%s：%s%n", one.getName(), one.getCdkId());
+        //hello,world
         return format;
     }
 
