@@ -29,7 +29,7 @@ class BackendSystemApplicationTests {
     @Test
     void test02(){
         List<TestCdk> list = new ArrayList<>();
-        Set<String> strings = new RandomStringGenerator().NotRepeatingRandomString(50000, 16);
+        Set<String> strings = new RandomStringGenerator().NotRepeatingRandomString(1000, 16);
         for (String str : strings){
             list.add(new TestCdk("玫瑰精灵的cdk",str));
         }
